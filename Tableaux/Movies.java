@@ -4,7 +4,6 @@ class Movies {
         String[][] actors = {{"Harrison Ford", "Karen Allen", "Paul Freeman"}, {"Harrison Ford", "Kate Capshaw", "Jonathan Ke Quan"}, {"Harrison Ford", "Sean Connery", "Denholm Elliott"}, {"Harrison Ford", "Cate Blanchett", "Shia LaBeouf"}};
 
         for (int i=0; i<movies.length; i++) {
-
             String title = movies[i];
             String[] movieActor = actors[i];
             System.out.println("Dans le film " + title + ", les principaux acteurs sont :");
